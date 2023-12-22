@@ -1,0 +1,15 @@
+server:
+  port: 5020
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/AMOOZESH
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
